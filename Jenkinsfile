@@ -6,8 +6,8 @@ pipeline {
         script {
 		cd /Users/monoshreebanerjee/hhh/docker-java-helloworld
                  docker build .
-		 }
-	       } 
-	}
+	 }
+        } 
+       }
     }
-}
+  }
