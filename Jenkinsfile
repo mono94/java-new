@@ -4,9 +4,7 @@ pipeline {
     stage('Build image') {
       steps {
         echo ("hello world")
-		script {
-                      docker --help
-		}
+        docker
         } 
        }
     }
