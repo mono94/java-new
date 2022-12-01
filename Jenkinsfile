@@ -4,7 +4,7 @@ pipeline {
     stage('Build image') {
       steps {
         echo ("hello world")
-        docker ps -a
+        docker build -t yer .
         } 
        }
     }
