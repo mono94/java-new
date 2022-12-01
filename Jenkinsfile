@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo ("hello world")
 		script {
-                      echo ("hi")
+                      docker build -t "my-qbc" .
 		}
         } 
        }
